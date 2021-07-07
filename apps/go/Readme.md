@@ -1,7 +1,7 @@
 ## Follow Below instructions
 
 
-
+```
 # build the image
 docker build -t go-helloworld .
 
@@ -16,3 +16,5 @@ docker push kelly/go-helloworld:v1.0.0
 
 # login into DockerHub
 docker login
+
+```
